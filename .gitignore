@@ -1,0 +1,7 @@
+aclImdb/
+aclImdb_v1.tar.gz
+.ipynb_checkpoints/
+classifiers/
+csv/
+data_preprocessors/
+vectorized_data/
