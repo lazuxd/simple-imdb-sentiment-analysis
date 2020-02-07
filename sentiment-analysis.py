@@ -51,7 +51,7 @@ def create_data_frame(folder: str) -> pd.DataFrame:
 imdb_train = create_data_frame('aclImdb/train')
 imdb_test = create_data_frame('aclImdb/test')
 
-get_ipython().system("mkdir 'csv'")
+system("mkdir 'csv'")
 imdb_train.to_csv('csv/imdb_train.csv', index=False)
 imdb_test.to_csv('csv/imdb_test.csv', index=False)
 
