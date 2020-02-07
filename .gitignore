@@ -5,3 +5,4 @@ classifiers/
 csv/
 data_preprocessors/
 vectorized_data/
+imgs/
